@@ -29,7 +29,7 @@ export class IotController {
     }
 
     // @Put(':id')
-    // aysnc putIotById(@Param('id') id: number, @Query() query) {
+    // aysnc putIotById(@Param('id') id: number, @Body() query: any) {
     //     const propertyName = query.property_name;
     //     const propertyValue = query.property_value;
     //     const result = await this.iotService.putIotById(id, propertyName, propertyValue);
